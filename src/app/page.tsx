@@ -6,6 +6,11 @@ import { authClient } from "@/lib/auth-client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+/**
+ * Renders the authentication page, allowing users to sign up, log in, and sign out.
+ *
+ * Displays a user creation form and a login form when no session is active. If a user is logged in, shows the user's name and a sign-out button. Provides user feedback via alert dialogs on authentication success or failure.
+ */
 export default function Home() {
   const { data: session } = authClient.useSession();
 
