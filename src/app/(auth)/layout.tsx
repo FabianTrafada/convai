@@ -1,6 +1,6 @@
-import { AuthLayoutProps } from "@/types/interface";
+import { LayoutProps } from "@/types/interface";
 
-const Layout = ({ children }: AuthLayoutProps) => {
+const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="bg-muted flex min-h-svh flex-col items-center justify-center p-6 md:p-10">
       <div className="w-full max-w-sm md:max-w-3xl">{children}</div>
