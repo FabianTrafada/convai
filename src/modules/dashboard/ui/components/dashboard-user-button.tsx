@@ -64,7 +64,7 @@ export const DashboardUserButton = () => {
                         <span className="font-medium truncate">{data.user.name}</span>
                         <span className="text-sm font-normal text-muted-foreground truncate">{data.user.email}</span>
                     </div>
-                </DropdownMenuLabel>w
+                </DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem className="cursor-pointer flex items-center justify-between">
                     Billing
